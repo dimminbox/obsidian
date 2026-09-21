@@ -16,4 +16,3 @@ async void не возвращает таску и поэтому вызываю
 - Task.Run (() => {...} );
 - Task.FromResult(result);
 - TaskCompletionSource
-

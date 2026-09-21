@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Инфраструктура/ElasticSearch/Highload специфика/Как ES устроен внутри.md",
+                "file": "Инфраструктура/Базы данных/PostgreSQL/Внутреннее устройство/Autovacuum.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Как ES устроен внутри"
+              "title": "Autovacuum"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "имму",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,7 +71,10 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
@@ -187,32 +190,35 @@
   },
   "active": "294d02895d87ce1f",
   "lastOpenFiles": [
+    "Инфраструктура/Базы данных/PostgreSQL/Внутреннее устройство/Виды процессов.md",
+    "Инфраструктура/ElasticSearch/Highload специфика/Как ES устроен внутри.md",
+    "Инфраструктура/ElasticSearch/Highload специфика/Профилирование.md",
+    "System design/HighLoad/Spike нагрузки.md",
+    "System design",
+    "C#/Функциональщина/Иммутабельные типы.md",
+    "C#/Асинхронщина/Примитивы синхронизации/CPU mode/Interlocked.md",
+    "C#/Асинхронщина/Async, await.md",
+    "C#/Асинхронщина/IO-Bound vs CPU-Bound.md",
+    "C#/Асинхронщина/Tasks.md",
+    "System design/HighLoad/Race condition.md",
+    "System design/HighLoad/Circuit breaker.md",
+    "System design/HighLoad",
+    "C#/Асинхронщина/TaskCompletionSource.md",
+    "C#/Тестирование/load, stress, spike, soak и chaos тестирование.md",
+    "C#/Тестирование/Testcontainers.md",
+    "C#/Асинхронщина/Примитивы синхронизации/User mode/SemaphorSlim.md",
+    "C#/Асинхронщина/Примитивы синхронизации/Kernel mode/Semaphor.md",
+    "C#/Асинхронщина/Примитивы синхронизации/Kernel mode/Monitor, Lock.md",
+    "Инфраструктура/Базы данных/PostgreSQL/Внутреннее устройство/Autovacuum.md",
+    "Инфраструктура/Базы данных/PostgreSQL/Уровни изоляции транзакций.md",
+    "Инфраструктура/Базы данных/PostgreSQL/Внутреннее устройство",
+    "Безопасность/Авторизация/mTLS.md",
+    "C#/Типы/Пулинг объектов.md",
+    "C#/Типы/Делегаты.md",
+    "C#/Коллекции/Интерфейсы.md",
+    "C#/Внутреннее устройство/Сборщик мусора/Gens (поколения).md",
     "Инфраструктура/ElasticSearch/Ранжирование.md",
     "Инфраструктура/ElasticSearch/Поиск.md",
-    "Инфраструктура/ElasticSearch/Highload специфика/Профилирование.md",
-    "Инфраструктура/ElasticSearch/Highload специфика/Как ES устроен внутри.md",
-    "Инфраструктура/ElasticSearch/Как работает в РЦ/5. Финальный запрос.md",
-    "Инфраструктура/ElasticSearch/Как работает в РЦ/_Поиск.md",
-    "Инфраструктура/ElasticSearch/Как работает в РЦ/2. Поиск по разным полям из SEARCH.md",
-    "Инфраструктура/ElasticSearch/Как работает в РЦ/1. Коррекция ввода.md",
-    "Базы данных/PostgreSQL/Индексы.md",
-    "Базы данных/NoSQL/CAP теорема.md",
-    "Безопасность/Авторизация/mTLS?.md",
-    "Базы данных/PostgreSQL/Транзакции.md",
-    "Проектирование и архитектура/Паттерны для кода/Структурные паттерны/Фасад.md",
-    "Проектирование и архитектура/Паттерны для кода/Структурные паттерны/Композит.md",
-    "Инфраструктура/ElasticSearch/Сортировка.md",
-    "Безопасность/Авторизация/JWT.md",
-    "Проектирование и архитектура/Паттерны для кода/Circuit breaker.md",
-    "Проектирование и архитектура/Паттерны для кода/Паттерны для атомарности операций/Saga.md",
-    "Проектирование и архитектура/Архитектурные паттерны/CQRS.md",
-    "C#/Асинхронщина/Tasks.md",
-    "Инфраструктура/ElasticSearch/_Введение.md",
-    "Инфраструктура/ElasticSearch/Алгоритм BM-25.md",
-    "Инфраструктура/ElasticSearch/Индексация документов.md",
-    "Инфраструктура/ElasticSearch/Интеграции.md",
-    "Инфраструктура/ElasticSearch/Агрегация.md",
-    "C#/Типы/Struct.md",
     "Инфраструктура/ElasticSearch/Как работает в РЦ",
     "Инфраструктура/ElasticSearch/Интеграции",
     "Инфраструктура/ElasticSearch/Highload специфика",
@@ -222,9 +228,6 @@
     "Инфраструктура",
     "Безопасность/Авторизация",
     "Проектирование и архитектура/ООП",
-    "Проектирование и архитектура/Паттерны для кода",
-    "Проектирование и архитектура/Паттерны для кода/Поведенческие паттерны",
-    "Проектирование и архитектура/Паттерны для кода/Структурные паттерны",
     "Untitled.canvas",
     "Pasted image 20260525201628.png"
   ]
