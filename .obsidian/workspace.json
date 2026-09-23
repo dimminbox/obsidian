@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Инфраструктура/Базы данных/PostgreSQL/Внутреннее устройство/Autovacuum.md",
+                "file": "C#/Асинхронщина/Async, await.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Autovacuum"
+              "title": "Async, await"
+            }
+          },
+          {
+            "id": "086b773b2b8bf9f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Протоколы и стандарты/REST.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "REST"
+            }
+          },
+          {
+            "id": "be6ca8b69db1d21a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C#/Внутреннее устройство/Таблица вспомогательных данных объекта.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Таблица вспомогательных данных объекта"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -55,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "имму",
+                "query": "rest",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +108,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -188,46 +218,47 @@
       "bases:Create new base": false
     }
   },
-  "active": "294d02895d87ce1f",
+  "active": "086b773b2b8bf9f8",
   "lastOpenFiles": [
-    "Инфраструктура/Базы данных/PostgreSQL/Внутреннее устройство/Виды процессов.md",
-    "Инфраструктура/ElasticSearch/Highload специфика/Как ES устроен внутри.md",
-    "Инфраструктура/ElasticSearch/Highload специфика/Профилирование.md",
-    "System design/HighLoad/Spike нагрузки.md",
-    "System design",
-    "C#/Функциональщина/Иммутабельные типы.md",
-    "C#/Асинхронщина/Примитивы синхронизации/CPU mode/Interlocked.md",
-    "C#/Асинхронщина/Async, await.md",
-    "C#/Асинхронщина/IO-Bound vs CPU-Bound.md",
-    "C#/Асинхронщина/Tasks.md",
-    "System design/HighLoad/Race condition.md",
-    "System design/HighLoad/Circuit breaker.md",
-    "System design/HighLoad",
-    "C#/Асинхронщина/TaskCompletionSource.md",
-    "C#/Тестирование/load, stress, spike, soak и chaos тестирование.md",
-    "C#/Тестирование/Testcontainers.md",
-    "C#/Асинхронщина/Примитивы синхронизации/User mode/SemaphorSlim.md",
-    "C#/Асинхронщина/Примитивы синхронизации/Kernel mode/Semaphor.md",
-    "C#/Асинхронщина/Примитивы синхронизации/Kernel mode/Monitor, Lock.md",
-    "Инфраструктура/Базы данных/PostgreSQL/Внутреннее устройство/Autovacuum.md",
-    "Инфраструктура/Базы данных/PostgreSQL/Уровни изоляции транзакций.md",
-    "Инфраструктура/Базы данных/PostgreSQL/Внутреннее устройство",
-    "Безопасность/Авторизация/mTLS.md",
-    "C#/Типы/Пулинг объектов.md",
+    "Инфраструктура/Базы данных/PostgreSQL/Индексы/_Введение.md",
+    "Инфраструктура/Базы данных/PostgreSQL/SQL/WHERE, HAVING.md",
+    "Проектирование и архитектура/Паттерны для кода/Паттерны для атомарности операций/UnitOfWork.md",
+    "Инфраструктура/Базы данных/PostgreSQL/SQL",
+    "Проектирование и архитектура/Паттерны для кода/Поведенческие паттерны/Стратегия.md",
+    "Проектирование и архитектура/Паттерны для кода/Порождающие паттерны/Синглтон.md",
+    "C#/Внутреннее устройство/Замыкания.md",
     "C#/Типы/Делегаты.md",
-    "C#/Коллекции/Интерфейсы.md",
+    "C#/ASP.NET/Scopes.md",
+    "C#/Entity Framework/Миграции.md",
+    "C#/Entity Framework/Плюсы и минусы.md",
+    "C#/Entity Framework/Методы загрузки сущностей.md",
+    "C#/Entity Framework/Определение моделей.md",
+    "C#/Асинхронщина/Примитивы синхронизации/Kernel mode/Semaphor.md",
+    "C#/Entity Framework",
+    "C#/Асинхронщина/Примитивы синхронизации/User mode/SemaphorSlim.md",
+    "C#/Асинхронщина/Примитивы синхронизации/CPU mode/Interlocked.md",
+    "C#/Асинхронщина/Примитивы синхронизации/Kernel mode/Mutex.md",
+    "C#/Асинхронщина/Примитивы синхронизации/Kernel mode/Monitor, Lock.md",
+    "C#/Внутреннее устройство/Таблица вспомогательных данных объекта.md",
+    "C#/Асинхронщина/Примитивы синхронизации/CPU mode/Volatile.md",
+    "C#/Асинхронщина/Примитивы синхронизации/User mode/ReaderWriterLockSlim.md",
+    "C#/Асинхронщина/Async, await.md",
+    "C#/Асинхронщина/Примитивы синхронизации/User mode/Lazy<T>.md",
+    "C#/Исключения/Общая информация.md",
     "C#/Внутреннее устройство/Сборщик мусора/Gens (поколения).md",
-    "Инфраструктура/ElasticSearch/Ранжирование.md",
-    "Инфраструктура/ElasticSearch/Поиск.md",
+    "C#/Типы/Dictionary.md",
+    "C#/Структуры данных/HashSet.md",
+    "Pasted image 20260921215157.png",
+    "Инфраструктура/Базы данных/PostgreSQL/Индексы",
+    "System design",
+    "System design/HighLoad",
+    "Инфраструктура/Базы данных/PostgreSQL/Внутреннее устройство",
     "Инфраструктура/ElasticSearch/Как работает в РЦ",
     "Инфраструктура/ElasticSearch/Интеграции",
     "Инфраструктура/ElasticSearch/Highload специфика",
     "Pasted image 20260907171700.png",
     "Pasted image 20260907171756.png",
     "Инфраструктура/ElasticSearch",
-    "Инфраструктура",
-    "Безопасность/Авторизация",
-    "Проектирование и архитектура/ООП",
     "Untitled.canvas",
     "Pasted image 20260525201628.png"
   ]
