@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Инфраструктура/Базы данных/PostgreSQL/Внутреннее устройство/Виды процессов.md",
+                "file": "Инфраструктура/Базы данных/PostgreSQL/Блокировки и дедлоки/Блокировки.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Виды процессов"
+              "title": "Блокировки"
             }
           },
           {
@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "shared_",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,8 +108,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -220,6 +219,23 @@
   },
   "active": "086b773b2b8bf9f8",
   "lastOpenFiles": [
+    "Инфраструктура/Базы данных/PostgreSQL/SQL/Массивы.md",
+    "Инфраструктура/Базы данных/PostgreSQL/Блокировки и дедлоки/Блокировки.md",
+    "Инфраструктура/Базы данных/PostgreSQL/Блокировки и дедлоки",
+    "Инфраструктура/Базы данных/PostgreSQL/SQL/LATERAL JOIN.md",
+    "Инфраструктура/Базы данных/PostgreSQL/Explain/Типы сканирования.md",
+    "Инфраструктура/Базы данных/PostgreSQL/Explain/Типы объединения таблиц.md",
+    "Инфраструктура/Базы данных/PostgreSQL/SQL/RETURNING.md",
+    "Инфраструктура/Базы данных/PostgreSQL/SQL/JSONB.md",
+    "Инфраструктура/Базы данных/PostgreSQL/SQL/UPSERT.md",
+    "Инфраструктура/Базы данных/PostgreSQL/Оконные функции.md",
+    "Инфраструктура/Базы данных/PostgreSQL/SQL/CTE (Табличные выражения).md",
+    "Инфраструктура/Базы данных/PostgreSQL/Расширения.md",
+    "Инфраструктура/Базы данных/PostgreSQL/Индексы/Partial индексы.md",
+    "Инфраструктура/Базы данных/PostgreSQL/Explain/_Введение.md",
+    "Проектирование и архитектура/Архитектурные паттерны/Clean Architecture.md",
+    "Инфраструктура/Базы данных/PostgreSQL/Explain",
+    "Инфраструктура/Базы данных/PostgreSQL/Внутреннее устройство/Виды процессов.md",
     "Инфраструктура/Базы данных/PostgreSQL/Индексы/_Введение.md",
     "Инфраструктура/Базы данных/PostgreSQL/Внутреннее устройство/Autovacuum.md",
     "C#/Внутреннее устройство/Работа с памятью.md",
@@ -231,21 +247,6 @@
     "C#/Асинхронщина/Async, await.md",
     "C#/Коллекции/Интерфейсы.md",
     "C#/Основы/Типы/Константы?.md",
-    "C#/Основы/Типы/Array.md",
-    "Untitled.md",
-    "C#/Коллекции/Ковариантность и контрвариантность.md",
-    "Инфраструктура/Базы данных/PostgreSQL/Уровни изоляции транзакций.md",
-    "C#/Функциональщина/Иммутабельные типы.md",
-    "Протоколы и стандарты/REST.md",
-    "Инфраструктура/ElasticSearch/Highload специфика/Как ES устроен внутри.md",
-    "Инфраструктура/ElasticSearch/Как работает в РЦ/1. Коррекция ввода.md",
-    "Инфраструктура/ElasticSearch/Как работает в РЦ/_Поиск.md",
-    "Инфраструктура/ElasticSearch/Highload специфика/Профилирование.md",
-    "Инфраструктура/Базы данных/PostgreSQL/Индексы/BRIN индексы.md",
-    "Инфраструктура/Базы данных/PostgreSQL/Индексы.md",
-    "Инфраструктура/Базы данных/PostgreSQL/Индексы/GIST индексы.md",
-    "Инфраструктура/Базы данных/PostgreSQL/Индексы/Expression индексы.md",
-    "Инфраструктура/Базы данных/PostgreSQL/Индексы/GIN индексы.md",
     "C#/Основы",
     "Инфраструктура/Базы данных/PostgreSQL/SQL",
     "C#/Entity Framework",
@@ -255,8 +256,6 @@
     "System design/HighLoad",
     "Инфраструктура/Базы данных/PostgreSQL/Внутреннее устройство",
     "Инфраструктура/ElasticSearch/Как работает в РЦ",
-    "Инфраструктура/ElasticSearch/Интеграции",
-    "Инфраструктура/ElasticSearch/Highload специфика",
     "Pasted image 20260907171700.png",
     "Pasted image 20260907171756.png",
     "Untitled.canvas",
