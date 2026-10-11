@@ -13,9 +13,9 @@ static void Main(string[] args)
 
 {
 
-	var childObj = new ChildClass();vptr прошит как ChildClass навсегда
+	var childObj = new ChildClass(); //vptr прошит как ChildClass навсегда
 	
-	childObj.Method1();переменная = ChildClass, не virtual → компилятор знает сразу// "Child"
+	childObj.Method1(); //переменная = ChildClass, не virtual → компилятор знает сразу// "Child"
 
 	childObj.Method2();переменная = ChildClass, не virtual → компилятор знает сразу// "Child"
 
@@ -25,15 +25,15 @@ static void Main(string[] args)
 
 static void LogInfo(BaseClass obj)
 {
-	obj.Method1();virtual → читает vptr → vtable ChildClass → ChildClass::Method1// "Child"
+	obj.Method1(); //virtual → читает vptr → vtable ChildClass → ChildClass::Method1// "Child"
 
-	obj.Method2();не virtual → тип переменной = BaseClass → BaseClass::Method2// "Base"
+	obj.Method2(); //не virtual → тип переменной = BaseClass → BaseClass::Method2// "Base"
 
 }
 
 public abstract class BaseClass
 {
-	public virtual void Method1()virtual → слот в vtable, наследник может переписать
+	public virtual void Method1()  virtual → слот в vtable, наследник может переписать
 	{ 
 		Console.WriteLine("Base"); 
 	}
@@ -51,9 +51,23 @@ public class ChildClass : BaseClass
 		Console.WriteLine("Child"); 
 	}
 	
-	public void Method2()не override → vtable не трогает, просто новый метод
+	public void Method2() не override → vtable не трогает, просто новый метод
 	{ 
 		Console.WriteLine("Child"); 
 	}
 }
 ```
+
+| Слот | BaseClass     | ChildClass             |
+| ---- | ------------- | ---------------------- |
+| 1    | Method1       | Method1  -> ChildClass |
+| 2    | `ToString`    | `ToString`             |
+| 3    | `Equals`      | `Equals`               |
+| 4    | `GetHashCode` | `GetHashCode`          |
+| 5    | `Finalize`    | `Finalize`             |
+
+Таблица виртуальных адресов не используется если метод помечен как new. Компилятор решает какого типа переменная и уже по типу переменной берёт либо base либо new метод.
+
+Сам объект выглядит в куче так:
+
+объект Dog в куче: [заголовок | ссылка на таблицу Dog] [поля...]

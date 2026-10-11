@@ -15,7 +15,9 @@ public int MaxDepth(TreeNode root)
 {  
     int length = 0;  
     if (root != null)  
-    {        length++;        int leftLength = 0;  
+    {   
+        length++;      
+        int leftLength = 0;  
         int rightLength = 0;  
   
         if (root.left != null)  

@@ -1,0 +1,7 @@
+-   Microsoft.NET.SDK - базовый SDK, консольные проекты, библиотеки классов
+-   Microsoft.NET.SDK.Web - asp.net core приложения.
+-   Microsoft.NET.SDK.BlazorWebAssembly - для создания веб интерфейсов на C# и JS
+-   Microsoft.NET.Sdk.Razor - шаблонизатор для html кода, который используется для создания web интерфейсов
+-   Microsoft.NET.Sdk.Worker - фоновые сервисы
+-   Microsoft.NET.Sdk.WindowsDesktop - WPF и WinForms (только Windows)
+-   Microsoft.NET.Sdk.Functions (Azure Functions)

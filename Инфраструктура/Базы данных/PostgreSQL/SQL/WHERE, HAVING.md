@@ -7,3 +7,5 @@ WHERE stock > 0
 GROUP BY category
 HAVING AVG(price) > 100;
 
+В HAVING можно использовать скларяные запросы, т.е. такие, которые отдают одно значение.
+
