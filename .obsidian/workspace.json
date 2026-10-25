@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Инфраструктура/Git??/Коммиты.md",
+                "file": "Инфраструктура/Git/Cherry-pick (выборочный перенос).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Коммиты"
-            }
-          },
-          {
-            "id": "16cfc1664ba87ba4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Инфраструктура/Git/Конфликты.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Конфликты"
+              "title": "Cherry-pick (выборочный перенос)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "restore",
+                "query": "git reset",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -203,14 +188,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "16cfc1664ba87ba4",
+  "active": "0584a6309db14e0e",
   "lastOpenFiles": [
+    "Инфраструктура/Git/Rebase (перебазирование коммитов).md",
+    "Инфраструктура/Git/Cherry-pick (выборочный перенос).md",
+    "Инфраструктура/Git/Откаты.md",
+    "Инфраструктура/Git/Конфликты.md",
     "Инфраструктура/Git/Коммиты.md",
     "Инфраструктура/Git/Конфигурация.md",
-    "Инфраструктура/Git/Конфликты.md",
     "Инфраструктура/Базы данных/PostgreSQL/Масштабирование/Партиционирование.md",
     "Инфраструктура/Базы данных/PostgreSQL/Масштабирование/Репликация.md",
-    "Инфраструктура/Git/Rebase (перебазирование коммитов).md",
     "Инфраструктура/Git/Чтение состояния.md",
     "Инфраструктура/Git/Параллельная работа с ветками.md",
     "Инфраструктура/Git??/Пуллинг изменений?.md",
@@ -231,8 +218,6 @@
     "Инфраструктура/Базы данных/PostgreSQL/Autovacuum/Autovacuum.md",
     "Инфраструктура/Базы данных/PostgreSQL/Autovacuum/Hot обновления.md",
     "Инфраструктура/Базы данных/PostgreSQL/Autovacuum/Статистика для index only scan.md",
-    "Инфраструктура/Базы данных/PostgreSQL/Autovacuum/_Введение.md",
-    "Инфраструктура/Базы данных/PostgreSQL/Autovacuum/Чистка старых данных.md",
     "Инфраструктура/Базы данных/PostgreSQL/Autovacuum",
     "C#/Внутреннее устройство/Мониторинг памяти",
     "Инфраструктура/Базы данных/PostgreSQL/Масштабирование",
